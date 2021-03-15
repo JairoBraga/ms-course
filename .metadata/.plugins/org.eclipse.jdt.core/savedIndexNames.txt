@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\neto_\Desktop\Curso de java\ProjetosSpring\ms-course\.metadata\.plugins\org.eclipse.jdt.core
+2064693905.index
