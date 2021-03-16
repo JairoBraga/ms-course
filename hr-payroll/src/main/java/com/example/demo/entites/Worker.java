@@ -1,6 +1,6 @@
 package com.example.demo.entites;
 
-public class Woker {
+public class Worker {
 	
 	private Long id;
 	
@@ -8,9 +8,9 @@ public class Woker {
 	
 	private Double dailyIncome;
 	
-	public Woker() {}
+	public Worker() {}
 
-	public Woker(Long id, String name, Double dailyIncome) {
+	public Worker(Long id, String name, Double dailyIncome) {
 		this.id = id;
 		this.name = name;
 		this.dailyIncome = dailyIncome;
