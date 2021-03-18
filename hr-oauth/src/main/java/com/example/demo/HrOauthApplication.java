@@ -5,13 +5,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
-@EnableEurekaClient
 @EnableFeignClients
 @SpringBootApplication
-public class HrPayrollApplication {
+@EnableEurekaClient
+public class HrOauthApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HrPayrollApplication.class, args);
+		SpringApplication.run(HrOauthApplication.class, args);
 	}
 
 }
